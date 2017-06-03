@@ -1,0 +1,47 @@
+body {
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-family: sans-serif;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+a 	{
+	color: black;
+}
+
+p	{
+	font-family: serif;
+}
+
+p	{
+	font-family: sans-serif;
+}
+
+header nav {
+	margin-top:	50px;
+}
+
+footer nav {
+	margin-bottom: 40px;
+}
+
+h1 {
+	margin-top:	10px;
+}
+
+h2 {
+	font-size:	16px;
+}
+
+img {
+	padding: 5px;
+	border:	solid black;
+}
+
+header, footer {
+	text-align: center;
+}
+
