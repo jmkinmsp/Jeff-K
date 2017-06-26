@@ -1,23 +1,12 @@
-$(".readmore").hide();
-$(".mobile-menu").hide();
-$(".learnmore").click(function() {
-	$(".mobile-menu").slideToggle("slow",function() {
-		$(".learnmore").hide();
-		$(".readmore").show();
-	});
+$(document).ready(function(){
+
+
+
+function displaymore(){
+$("#show-this-on-click").slidedown();
+$(".readless hide").show();
+}
+
+
+$("readmore").click(displaymore);
 });
-
-$(".readmore").click(function() {
-	$(".mobile-menu").slideToggle("slow", function() {
-		$(".readmore").hide();
-		$(".learnmore").show();
-	});
-});
-
-
-
-
-
-
-
-
