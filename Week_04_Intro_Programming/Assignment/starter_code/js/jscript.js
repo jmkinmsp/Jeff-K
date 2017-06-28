@@ -1,5 +1,8 @@
 $(document).ready(function(){
-
+	function readmore(event){
+		$(".readmore").event.preventdefault();
+		console.log("clicked readMore");
+}
 
 	$( ".readmore" ).click(function() {
  	 	$("#show-this-on-click").slideDown();
