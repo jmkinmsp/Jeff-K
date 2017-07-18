@@ -3,33 +3,52 @@
 
 // 1. Create a function called giveMeFive. The function
 // should take no arguments and return the number 5
-
+function giveMeFive(x){
+	var x = 5;
+	return x;
+}
 
 /* -------------------------------------------------- */
 
 // 2. Create a function called addTogether that takes two arguments.
 // The function should return the sum of those two arguments
 
-
+function addTogether(x,y){
+	return x + y;
+}
 /* -------------------------------------------------- */
 
 // 3. Create a function called isOdd that takes a number as an argument.
 // if the number is odd, the function should return true. If the number is
 // even the function should return false. Hint: use the % operator.
 
-
+function isOdd(n) {
+  return n == parseFloat(n) && !!(n % 2);     
+}
 /* -------------------------------------------------- */
 
 // 4. Create a function called isEven that takes a number as an argument.
 // if the number is even, the function should return true. If the number is
 // odd the function should return false. Hint: use the % operator.
 
-
+function isEven(n) {
+  return n == parseFloat(n) && !(n % 2);
+}
 /* -------------------------------------------------- */
 
 // 5. Create a function called max that takes two numbers as arguments.
 // max should return the larger of the two numbers. If the numbers are
 // equal one of the numbers should be returned.
+function max(a, b) {
+	if (a >= b) {
+    	return a;
+}  
+	else {
+   		return b;
+}
+}
+//if the if statement didn't go off that means that num2
+//is the larger number
 
 
 /* -------------------------------------------------- */
@@ -37,8 +56,14 @@
 // 6. Create a function called min that takes two numbers as arguments.
 // min should return the smaller of the two numbers. If the numbers are
 // equal one of the numbers should be returned.
-
-
+function min(a, b) {
+	if (a <= b) {
+    	return a;
+}  
+	else {
+   		return b;
+}
+}
 /* -------------------------------------------------- */
 
 // 7. Create a function called clamp that takes three arguments.
@@ -62,7 +87,9 @@
 // 9. Create a function called disagree that takes a boolean as an argument.
 // This function should return the opposite value(true if the argument is false,
 // false if the argument is true). Hint: use the ! operator.
-
+function disagree(a)
+	var a = true;
+	return (!a);		 
 
 /* -------------------------------------------------- */
 
